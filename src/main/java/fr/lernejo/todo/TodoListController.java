@@ -23,7 +23,6 @@ public class TodoListController {
         TodoEntity todoEntity = new TodoEntity();
         todoEntity.message = todo.message();
         todoEntity.author = todo.author();
-
         todoRepository.save(todoEntity);
     }
 }
